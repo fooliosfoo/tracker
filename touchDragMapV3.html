@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="reactJS/dist/interact.js" defer></script> <!-- This must be the first script loaded -->
+    <!-- <script type="module" src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js" defer></script> -->
+    <script type="module" src="js/touchDragMapV3.js" defer></script> <!-- use defer to force the javascript file to load after the webpage loads -->
+    <script src="js/jQuery361.js" defer></script> <!-- jquery file must be declared before an external script can use it as a module -->
+    <!--<script src="js/jQueryExample.js" defer></script>--> <!-- must be after the jquery file src request -->
+    <link rel="stylesheet" href="cssStyleSheets/touchDragMapV3.css">
+</head>
+<body>
+    <div id="drag-1" class="draggable">
+        <!--<p> token3 </p>--> <!-- this text becomes distance of movement when the token is moved -->
+      </div>
+      <div id="drag-2" class="draggable">
+        <!--<p> token4 </p>--> <!-- this text becomes distance of movement when the token is moved -->
+      </div>
+      <div id="drag-token-1" class="draggable">
+        <!--<p> Ashlyn </p>--> <!-- this text becomes distance of movement when the token is moved -->
+      </div>
+      <div id="drag-token-2" class="draggable">
+        <!--<p> Assassin </p>--> <!-- this text becomes distance of movement when the token is moved -->
+      </div>
+      <div id="drag-token-villain-1" class="draggable">
+        <!--<p> The Mark </p>--> <!-- this text becomes distance of movement when the token is moved -->
+      </div>
+      <!-- check whether importing jquery and extra external scripts are working in the order that they are. -->
+      <!--<center>
+        <div id="demo"><p> I am a text field</p></div>
+      </center>-->
+      <input type="file" id="input"/>
+      <canvas width="400" height="300" id="canvas"/>
+
+</body>
+</html>

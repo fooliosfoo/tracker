@@ -1,0 +1,107 @@
+/*
+Starting with "/" returns to the root directory and starts there
+Starting with "../" moves one directory backwards and starts there
+Starting with "../../" moves two directories backwards and starts there
+names are case-sensitive
+*/
+
+body {
+    /*To actually have scroll-able images, you need to give it a width - or in this case- height larger than your viewport.*/
+    background-image: url('/boilerPlatedProj/img/InnOfTheLastHome.jpg');
+    /*background-size: 100%;*/
+    min-height: 100%;
+    min-width: 100%;
+    background-size: cover;
+    background-position:center;
+    /*background-attachment: fixed;*/ /*prevents the image from scrolling*/
+    background-repeat: no-repeat;
+    height:200vh;
+    width:200vh;
+  }
+
+#drag-1 {
+    /*width: 25%;
+    min-height: 6.5em;
+    margin: 1rem 0 0 1rem;*/
+    background-image: url('/boilerPlatedProj/img/elfToken.png');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-color: #29e;
+    /*color: white;*/
+    border-radius: 50px; /* all four corners */
+    /*border-radius: 0.75em;
+    padding: 4%;*/
+    touch-action: none;
+    user-select: none;
+    transform: translate(0px, 0px);
+    text-align: center;
+    border: 3px solid green;
+    box-shadow: 5px 10px 18px #292727;
+  }
+
+#drag-2 {
+    background-image: url('/boilerPlatedProj/img/femaleElfToken.png');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-color: #29e;
+    border-radius: 50px; /* all four corners */
+    touch-action: none;
+    user-select: none;
+    transform: translate(0px, 0px);
+    text-align: center;
+    border: 3px solid green;
+    box-shadow: 5px 10px 18px #292727;
+}
+
+#drag-token-1 {
+    /*width: 25%;*/
+    /*min-height: 6.5em;*/
+    /*margin: 1rem 0 0 1rem;*/
+    background-image: url('/boilerPlatedProj/img/Ashlyn.png');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-color: #29e;
+    /*color: white;*/
+    border-radius: 50px; /* all four corners */
+    /*border-radius: 0.75em;*/
+    /*padding: 4%;*/
+    touch-action: none;
+    user-select: none;
+    transform: translate(0px, 0px);
+    border: 3px solid green;
+    box-shadow: 5px 10px 18px #292727;
+    text-align: center;
+  }
+
+#drag-token-2 {
+    background-image: url('/boilerPlatedProj/img/Assassin.png');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-color: #29e;
+    border-radius: 50px; /* all four corners */
+    touch-action: none;
+    user-select: none;
+    transform: translate(0px, 0px);
+    border: 3px solid green;
+    box-shadow: 5px 10px 18px #292727;
+    text-align: center;
+  }
+
+#drag-token-villain-1 {
+    background-image: url('/boilerPlatedProj/img/femleRangerToken.png');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-color: #29e;
+    border-radius: 50px; /* all four corners */
+    touch-action: none;
+    user-select: none;
+    transform: translate(0px, 0px);
+    border: 3px solid red;
+    box-shadow: 5px 10px 18px #292727;
+    text-align: center;
+  }
